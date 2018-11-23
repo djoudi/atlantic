@@ -1,9 +1,41 @@
+Atlantic 8.6.1
+* Features:
+
+* Bugs:
+  ZK-4114: orgnode label missing font styles
+  ZK-4116: Spinner/Timebox button active style not working
+  ZK-4048: chosenbox doesn't have consistent vertical align with other input components
+  ZK-4102: Slider flex sizing does not update the default 200px
+
+* Upgrade Notes:
+
+  --------
+Atlantic 8.6.0.1
+Nov 20, 2018
+* Features:
+
+* Bugs:
+
+* Upgrade Notes:
+  Same as 8.6.0 (Version alignment)
+
+  --------
+
 Atlantic 8.6.0
+Nov 7, 2018
 * Features:
   ZK-3958: Checkbox new molds (switch, toggle)
+  ZK-3138: Data loading indicator for ROD
+  ZK-3963: Organigram component
+  ZK-3962: A new component that can select a range of image
+  ZK-3954: GoldenLayout component
+  ZK-3959: A new component for signing a signature
+  ZK-4094: camera should provide default recording status indicator
 
 * Bugs:
   ZK-4000: Failed to drag and drop to a grid with firefox under atlantic theme
+  ZK-4095: Add a false positive check threshold on the barcode scanner
+  ZK-4112: Listbox ROD is empty when scroll down
 
 * Upgrade Notes:
 

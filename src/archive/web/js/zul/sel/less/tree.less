@@ -57,6 +57,11 @@
 			overflow: hidden;
 		}
 	}
+	// ZK-3138: ROD loading indicator
+	&-loading {
+		background: transparent no-repeat center;
+		.encodeThemeURL(background-image, '~./zul/img/misc/progress-large.gif');
+	}
 }
 //tree open icon and indent space
 .z-tree {
@@ -300,6 +305,15 @@
 		.z-icon-radio {
 			margin: 0;
 			background-position: -26px -13px;
+		}
+	}
+}
+
+.ie9 {
+	.z-treerow {
+		.z-treecell {
+			position: static;
+			z-index: auto;
 		}
 	}
 }

@@ -63,6 +63,11 @@
 	&-odd.z-listitem {
 		background: @meshStripeBackground;
 	}
+	// ZK-3138: ROD loading indicator
+	&-loading {
+		background: transparent no-repeat center;
+		.encodeThemeURL(background-image, '~./zul/img/misc/progress-large.gif');
+	}
 }
 //listhead
 .z-listhead {
@@ -439,6 +444,15 @@
 			&:before {
 				display: none;
 			}
+		}
+	}
+}
+
+.ie9 {
+	.z-listitem {
+		.z-listcell {
+			position: static;
+			z-index: auto;
 		}
 	}
 }
