@@ -54,12 +54,14 @@ legend {
 		border: 0;
 	}
 }
-<c:if test="${empty c:property('org.zkoss.zul.theme.browserDefault')}">
+
 body {
 	margin: 0;
-	padding: 0 5px;
+	padding: 0;
+	height: 100%;
+	width: 100%;
+	overflow: hidden;
 }
-</c:if>
 
 //mobile
 .mobile * {
@@ -583,4 +585,8 @@ span.z-upload input {
 	&-right {
 		right: 0;
 	}
+}
+
+html {
+	@import "~./zul/less/idempiere/_theme.less";
 }
